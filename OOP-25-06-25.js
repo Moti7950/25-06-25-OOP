@@ -76,7 +76,87 @@
 // console.log(motiscar.describe());
 // console.log(motiscar.info());
 
-// ########## Part C #########
 // ============6==========
+// function Shape()
+// {
+//     this.area =function(){return 0}
+// }
 
+// function Circle(radius)
+// {
+//     this.area =function(){return Math.PI * radius**2}
+// }
+
+// function Square(side)
+// {
+//     this.area =function(){return side**2}
+// }
+
+// const sidi = new Square(4)
+// const radi = new Circle(3);
+// console.log(radi.area());
+// console.log(sidi.area());
+
+// ########## Part C #########
+// ============7==========
+// class Book
+// {
+//     constructor(title, author)
+//     {
+//         this.title = title;
+//         this.author = author;
+//         this.info =function(){return`${this.title} by ${this.author}`};
+//     }
+// }
+
+// const motisBook = new Book("JS", "Moti 😉")
+// console.log(motisBook.info());
+
+// ============8==========
+// class Person
+// {
+//     constructor(name)
+//     {
+//         this.name = name;
+//         this.greet = function(){return `Hello Im ${this.name}`}
+//     }
+// }
+
+// class Student extends Person
+// {
+//     constructor(name, school)
+//     {           super(name)
+//         this.study = function(){return `${name} is studying at ${school}`}
+//     }
+// }
+
+// const moti = new Student("Moti", "Oxford")
+// console.log(moti.greet());
+// console.log(moti.study());
+
+// ============9==========
+// class Employee
+// {
+//     #salary
+//     constructor(salary)
+//     {
+//         this.#salary = salary
+//         this.getSalary = function(){return `salary is: ${this.#salary}`};
+//         this.work = function(){return `Employee is working`;}
+//     }
+// }
+// class Manager extends Employee
+// {
+//     constructor(mangSalary)
+//     {       super(mangSalary)
+//         this.work = function(){return `Manager is managing`;}
+//     }
+// }
+
+// const empli1 = new Employee(4000);
+// const mangMoti = new Manager(5000);
+// console.log(empli1.getSalary());
+// console.log(empli1.work());
+// console.log(mangMoti.getSalary());
+// console.log(mangMoti.work());
 
