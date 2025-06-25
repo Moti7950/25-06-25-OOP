@@ -40,3 +40,43 @@
 // const motiBankAccount = new BankAccount("Moti",1000)
 // console.log(motiBankAccount.checkBalance());
 
+// ########## Part B #########
+// ============4==========
+// function Animal(name)
+// {
+//     this.name = name;
+//     this.speak = function(){return `${this.name} makes a sound`};
+// }
+
+// function Dog()
+// {
+//     this.bark = function(){return `${this.name} makes a sound Vav Vav`};
+// }
+
+// const Ani1 =new Animal("Flafi");
+// const motisDog = new Dog();
+// Object.setPrototypeOf(motisDog, Ani1);
+// console.log(motisDog.bark());
+// console.log(motisDog.speak());
+
+// ============5==========
+// function Vehicle(type)
+// {
+//     this.type = type;
+//     this.describe = function(){return `This is a ${this.type}`};
+// }
+
+// function Car(brand)
+// {
+//     this.info = function(){return `This is a ${brand} ${this.type}`};
+// }
+// const vaci = new Vehicle("car");
+// const motiscar = new Car("Toyta")
+// Object.setPrototypeOf(motiscar,vaci);
+// console.log(motiscar.describe());
+// console.log(motiscar.info());
+
+// ########## Part C #########
+// ============6==========
+
+
